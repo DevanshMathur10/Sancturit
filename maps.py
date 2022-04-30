@@ -14,14 +14,14 @@ def map():
     ])
     gmap.scatter(hospitallats, hospitallngs, color='#ff0000', size=80)
 
-    policelats,policelngs=zip(*[
+    shelterlats,shelterlngs=zip(*[
     (26.936527, 75.789392),
     (26.9366312,75.7892678),
     (26.936650, 75.789501),
     (26.936395, 75.789473),
     (26.936439, 75.789310)
     ])
-    gmap.scatter(policelats,policelngs, color='green', size=80)
+    gmap.scatter(shelterlats,shelterlngs, color='green', size=80)
 
     path_two_lats, path_two_longs = zip(
     *[
