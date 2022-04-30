@@ -3,6 +3,7 @@ from tkvideo import tkvideo
 from contact import helpline_numbers
 from location import locshow
 from surlist import surlist
+from donate import donate
 import time
 
 root=Tk()
@@ -38,12 +39,12 @@ sendbtn.grid(row=0,column=0,columnspan=2,ipady=35,ipadx=45)
 
 frame3=Frame(root,bg='#2E0063', relief=RAISED)
 frame3.place(x=760,y=750,anchor='center')
-sendbtn=Button(frame3,text="DONATE",bg="red",font=("arial",15))
+sendbtn=Button(frame3,text="DONATE",bg="red",font=("arial",15),command=donate)
 sendbtn.grid(row=0,column=0,columnspan=2,ipady=30,ipadx=70)
 
 frame4=Frame(root,bg='#2E0063', relief=RAISED)
-frame4.place(x=760,y=550,anchor='center')
+frame4.place(x=760,y=545,anchor='center')
 sendbtn=Button(frame4,text="CONTACT",command=helpline_numbers)
-sendbtn.grid(row=0,column=0,columnspan=2,ipady=30,ipadx=50)
+sendbtn.grid(row=0,column=0,columnspan=2,ipady=30,ipadx=56)
 
 root.mainloop()
