@@ -1,2 +1,1 @@
-# Sancturit
-An app to help homeless people live comfortably.
+# [Sancturit](https://devfolio.co/projects/sancturit-5e81)
